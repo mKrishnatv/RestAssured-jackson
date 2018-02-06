@@ -1,12 +1,14 @@
 
-package entities.response;
+package entities.response.multiple;
+
+//import entities.response.multiple.Item;
 
 public class ResponseContainer {
 
     private String Etag;
     private Item[] Items;
     private String Kind;
-    private entities.response.PageInfo PageInfo;
+    private entities.response.multiple.PageInfo PageInfo;
     private String nextPageToken;
     private String regionCode;
 
@@ -34,11 +36,11 @@ public class ResponseContainer {
         this.Kind = kind;
     }
 
-    public entities.response.PageInfo getPageInfo() {
+    public entities.response.multiple.PageInfo getPageInfo() {
         return this.PageInfo;
     }
 
-    public void setPageInfo(entities.response.PageInfo pageInfo) {
+    public void setPageInfo(entities.response.multiple.PageInfo pageInfo) {
         this.PageInfo = pageInfo;
     }
 

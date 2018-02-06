@@ -32,7 +32,7 @@ public class JsonPathIllustrationTests {
         assertEquals(allItemsReturned.size(), itemsPerPage);
 
     }
-/*
+
     @Test
     public void shouldReturnItemsOrderedbyRating() throws IOException {
         String responseString =
@@ -49,7 +49,7 @@ public class JsonPathIllustrationTests {
 
 
     }
-
+/*
 
 
     @Test

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73881ed9-1de5-4b4f-a840-eb969e959056" name="Default" comment="" />
+    <list default="true" id="73881ed9-1de5-4b4f-a840-eb969e959056" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/entities/response/ResponseHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/entities/response/multiple/Item.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/entities/response/multiple/PageInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/entities/response/multiple/ResponseContainer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/contract/test/DataAttributesContractTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/contract/test/ItemAttributesContractTests.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/response/ResponseContainer.java" afterPath="$PROJECT_DIR$/src/main/java/entities/response/ResponseContainer.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/positive/tests/JacksonObjectMapperIllustrationTests.java" afterPath="$PROJECT_DIR$/src/test/java/positive/tests/JacksonObjectMapperIllustrationTests.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/positive/tests/JsonPathIllustrationTests.java" afterPath="$PROJECT_DIR$/src/test/java/positive/tests/JsonPathIllustrationTests.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/styles/tests/Styles.java" afterPath="$PROJECT_DIR$/src/test/java/styles/tests/Styles.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/response/ResponseContainer.class" afterPath="$PROJECT_DIR$/target/classes/entities/response/ResponseContainer.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/positive/tests/JacksonObjectMapperIllustrationTests.class" afterPath="$PROJECT_DIR$/target/test-classes/positive/tests/JacksonObjectMapperIllustrationTests.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/styles/tests/Styles.class" afterPath="$PROJECT_DIR$/target/test-classes/styles/tests/Styles.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JacksonObjectMapperIllustrationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/positive/tests/JacksonObjectMapperIllustrationTests.java">
+      <file leaf-file-name="DataAttributesContractTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/contract/test/DataAttributesContractTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="420">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,22 +40,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParameterTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/negative/tests/ParameterTests.java">
+      <file leaf-file-name="Styles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/styles/tests/Styles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="960">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JacksonObjectMapperIllustrationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/positive/tests/JacksonObjectMapperIllustrationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonPathIllustrationTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/positive/tests/JsonPathIllustrationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Styles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/styles/tests/Styles.java">
+      <file leaf-file-name="ItemAttributesContractTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/contract/test/ItemAttributesContractTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="65" column="10" lean-forward="false" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="810">
+              <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParameterTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/negative/tests/ParameterTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-214">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +101,28 @@
       <file leaf-file-name="ResponseContainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/entities/response/ResponseContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="218">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseContainer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entities/response/multiple/ResponseContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entities/response/multiple/PageInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,6 +147,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -109,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/test/java/positiveTests/JsonPathIllustrationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/positiveTests/JacksonObjectMapperIllustrationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/PageInfo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/positive/tests/JsonPathIllustrationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/negative/tests/ParameterTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/ResponseContainer.java" />
@@ -117,9 +192,17 @@
         <option value="$PROJECT_DIR$/src/main/java/entities/response/videoId/Standard.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/response/videoId/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/response/videoIds/ItemIds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/response/ResponseHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/response/entities/response/multiple/ResponseContainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/response/ResponseContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/response/entities/response/multiple/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/response/multiple/PageInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/response/multiple/ResponseContainer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/contract/test/DataAttributesContractTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/contract/test/ItemAttributesContractTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/styles/tests/Styles.java" />
         <option value="$PROJECT_DIR$/src/test/java/positive/tests/JacksonObjectMapperIllustrationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/positive/tests/JsonPathIllustrationTests.java" />
       </list>
     </option>
   </component>
@@ -135,6 +218,7 @@
     <option name="width" value="1440" />
     <option name="height" value="812" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -182,6 +266,23 @@
               <item name="jacksonApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="jacksonApi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jacksonApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jacksonApi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+              <item name="multiple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jacksonApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jacksonApi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -191,6 +292,38 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jacksonApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jacksonApi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jacksonApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jacksonApi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jacksonApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jacksonApi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jacksonApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jacksonApi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -199,7 +332,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -211,6 +344,9 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="entities.response.multiple" />
+      <recent name="contract.test" />
+      <recent name="entities.response.entities.response.multiple" />
       <recent name="negative.tests" />
       <recent name="positiveTests" />
     </key>
@@ -230,7 +366,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParameterTests">
+  <component name="RunManager" selected="JUnit.Styles.shouldReturnTwoItems">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -252,6 +388,56 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="DataAttributesContractTests.shouldHaveDataAttributes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="contract.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jacksonApi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="contract.test" />
+      <option name="MAIN_CLASS_NAME" value="contract.test.DataAttributesContractTests" />
+      <option name="METHOD_NAME" value="shouldHaveDataAttributes" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ItemAttributesContractTests.shouldHaveItemAttributes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="contract.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jacksonApi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="contract.test" />
+      <option name="MAIN_CLASS_NAME" value="contract.test.ItemAttributesContractTests" />
+      <option name="METHOD_NAME" value="shouldHaveItemAttributes" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="JacksonObjectMapperIllustrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -264,81 +450,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="positive.tests" />
       <option name="MAIN_CLASS_NAME" value="positive.tests.JacksonObjectMapperIllustrationTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="JacksonObjectMapperIllustrationTests.assertDataAttributes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="positive.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="jacksonApi" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="positive.tests" />
-      <option name="MAIN_CLASS_NAME" value="positive.tests.JacksonObjectMapperIllustrationTests" />
-      <option name="METHOD_NAME" value="assertDataAttributes" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="JacksonObjectMapperIllustrationTests.assertItemAttributes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="positive.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="jacksonApi" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="positive.tests" />
-      <option name="MAIN_CLASS_NAME" value="positive.tests.JacksonObjectMapperIllustrationTests" />
-      <option name="METHOD_NAME" value="assertItemAttributes" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ParameterTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="negative.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="jacksonApi" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="negative.tests" />
-      <option name="MAIN_CLASS_NAME" value="negative.tests.ParameterTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -366,6 +477,31 @@
       <option name="MAIN_CLASS_NAME" value="styles.tests.Styles" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Styles.shouldReturnTwoItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="styles.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="jacksonApi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="styles.tests" />
+      <option name="MAIN_CLASS_NAME" value="styles.tests.Styles" />
+      <option name="METHOD_NAME" value="shouldReturnTwoItems" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -438,19 +574,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.JacksonObjectMapperIllustrationTests.assertDataAttributes" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.JacksonObjectMapperIllustrationTests" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JacksonObjectMapperIllustrationTests.assertItemAttributes" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Styles" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ParameterTests" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Styles" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DataAttributesContractTests.shouldHaveDataAttributes" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Styles.shouldReturnTwoItems" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JacksonObjectMapperIllustrationTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ItemAttributesContractTests.shouldHaveItemAttributes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ParameterTests" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Styles.shouldReturnTwoItems" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.Styles" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.JacksonObjectMapperIllustrationTests.assertItemAttributes" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.JacksonObjectMapperIllustrationTests" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.JacksonObjectMapperIllustrationTests.assertDataAttributes" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DataAttributesContractTests.shouldHaveDataAttributes" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ItemAttributesContractTests.shouldHaveItemAttributes" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JacksonObjectMapperIllustrationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -471,39 +607,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JacksonObjectMapperIllustrationTests - 2018.02.05 at 16h 04m 51s.xml">
-      <configuration name="JacksonObjectMapperIllustrationTests" configurationId="JUnit" />
+    <history-entry file="DataAttributesContractTests_shouldHaveDataAttributes - 2018.02.05 at 17h 50m 25s.xml">
+      <configuration name="DataAttributesContractTests.shouldHaveDataAttributes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JacksonObjectMapperIllustrationTests_assertDataAttributes - 2018.02.05 at 16h 02m 35s.xml">
-      <configuration name="JacksonObjectMapperIllustrationTests.assertDataAttributes" configurationId="JUnit" />
+    <history-entry file="DataAttributesContractTests_shouldHaveDataAttributes - 2018.02.05 at 17h 52m 33s.xml">
+      <configuration name="DataAttributesContractTests.shouldHaveDataAttributes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JacksonObjectMapperIllustrationTests_assertItemAttributes - 2018.02.05 at 16h 27m 33s.xml">
-      <configuration name="JacksonObjectMapperIllustrationTests.assertItemAttributes" configurationId="JUnit" />
+    <history-entry file="DataAttributesContractTests_shouldHaveDataAttributes - 2018.02.06 at 10h 11m 43s.xml">
+      <configuration name="DataAttributesContractTests.shouldHaveDataAttributes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JacksonObjectMapperIllustrationTests_assertItemAttributes - 2018.02.05 at 16h 28m 39s.xml">
-      <configuration name="JacksonObjectMapperIllustrationTests.assertItemAttributes" configurationId="JUnit" />
+    <history-entry file="DataAttributesContractTests_shouldHaveDataAttributes - 2018.02.06 at 11h 02m 19s.xml">
+      <configuration name="DataAttributesContractTests.shouldHaveDataAttributes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JacksonObjectMapperIllustrationTests_assertItemAttributes - 2018.02.05 at 16h 30m 16s.xml">
-      <configuration name="JacksonObjectMapperIllustrationTests.assertItemAttributes" configurationId="JUnit" />
+    <history-entry file="ItemAttributesContractTests_shouldHaveItemAttributes - 2018.02.06 at 10h 16m 32s.xml">
+      <configuration name="ItemAttributesContractTests.shouldHaveItemAttributes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JacksonObjectMapperIllustrationTests_assertItemAttributes - 2018.02.05 at 16h 44m 49s.xml">
-      <configuration name="JacksonObjectMapperIllustrationTests.assertItemAttributes" configurationId="JUnit" />
+    <history-entry file="ItemAttributesContractTests_shouldHaveItemAttributes - 2018.02.06 at 10h 34m 24s.xml">
+      <configuration name="ItemAttributesContractTests.shouldHaveItemAttributes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParameterTests - 2018.02.05 at 16h 56m 13s.xml">
-      <configuration name="ParameterTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParameterTests_shouldReturn0ItemsWhenVideoIdIsIncorrect - 2018.02.05 at 15h 57m 00s.xml">
-      <configuration name="ParameterTests.shouldReturn0ItemsWhenVideoIdIsIncorrect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParameterTests_shouldReturn0ItemsWhenVideoIdIsIncorrect - 2018.02.05 at 15h 57m 19s.xml">
-      <configuration name="ParameterTests.shouldReturn0ItemsWhenVideoIdIsIncorrect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Styles - 2018.02.05 at 16h 55m 06s.xml">
+    <history-entry file="Styles - 2018.02.06 at 11h 29m 12s.xml">
       <configuration name="Styles" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Styles_shouldReturnTwoItems - 2018.02.06 at 11h 28m 06s.xml">
+      <configuration name="Styles.shouldReturnTwoItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Styles_shouldReturnTwoItems - 2018.02.06 at 11h 32m 53s.xml">
+      <configuration name="Styles.shouldReturnTwoItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Styles_shouldReturnTwoItems - 2018.02.06 at 11h 33m 33s.xml">
+      <configuration name="Styles.shouldReturnTwoItems" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -514,11 +651,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26108727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26108727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -541,46 +678,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/styles/tests/Styles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Snippet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Thumbnails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ContentDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -841,16 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/positive/tests/JsonPathIllustrationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="80" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/response/Default.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1054,6 +1141,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/response/ResponseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/response/multiple/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#729#730#0" expanded="false" />
+            <element signature="e#759#760#0" expanded="false" />
+            <element signature="e#795#796#0" expanded="false" />
+            <element signature="e#823#824#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/response/multiple/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/response/multiple/ResponseContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/contract/test/DataAttributesContractTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/contract/test/ItemAttributesContractTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/response/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1064,34 +1210,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/response/ResponseContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="218">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/styles/tests/Styles.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/negative/tests/ParameterTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="65" column="10" lean-forward="false" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/positive/tests/JacksonObjectMapperIllustrationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="-214">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/negative/tests/ParameterTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/styles/tests/Styles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="960">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/positive/tests/JacksonObjectMapperIllustrationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/positive/tests/JsonPathIllustrationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
           <folding />
         </state>
       </provider>

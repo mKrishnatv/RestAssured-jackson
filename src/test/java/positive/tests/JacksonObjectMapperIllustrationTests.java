@@ -1,7 +1,9 @@
 package positive.tests;
 
-import entities.response.ResponseContainer;
-
+import entities.response.multiple.ResponseContainer;
+import entities.response.multiple.Item;
+import org.codehaus.jackson.map.ObjectMapper;
+import entities.response.ResponseHelper;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import styles.tests.Styles;
@@ -26,35 +28,34 @@ public class JacksonObjectMapperIllustrationTests {
                 when()
                         .get("https://www.googleapis.com/youtube/v3/videos").asString();
 
-      /*  ObjectMapper mapper = new ObjectMapper();
-        responseContainer = mapper.readValue(responseString, ResponseContainer.class); */
-      responseContainer = (ResponseContainer) Styles.getResponseAsObject(responseString, ResponseContainer.class);
+        ObjectMapper mapper = new ObjectMapper();
+        responseContainer = mapper.readValue(responseString, ResponseContainer.class);
+
+    //  responseContainer = (ResponseContainer) ResponseHelper.getResponseAsObject(responseString, ResponseContainer.class);
     }
 
     @Test
     public void assertResponseContainerAttributes() {
         assertEquals(1, responseContainer.getPageInfo().getTotalResults());
-       // assertEquals(1, responseContainer.getData().getStartIndex());
         assertEquals(1, responseContainer.getPageInfo().getResultsPerPage());
     }
 
-//    @Test
-//    public void assertItemAttributes() {
-//        System.out.println(responseContainer.getItems().length);
-//        ItemIds itemIds = responseContainer.getItems()[0];
-//        assertEquals("Ks-_Mh1QhMc", item.);
-//        assertEquals("krishnamohan777", item.getUploader());
-//        assertEquals("Entertainment", item.getCategory());
-//        assertEquals("Maa thujhe salaam song on the stage by A R Rehman", item.getTitle());
-//        assertEquals(288, item.getDuration());
-//    }
-/*
     @Test
-    public void assertRestrictionAttributes() {
-        Restriction restriction = responseContainer.getData().getItems().get(0).getRestrictions().get(0);
-        assertEquals("country", restriction.getType());
-        assertEquals("deny", restriction.getRelationship());
-        assertEquals("DE", restriction.getCountries());
+    public void assertItemAttributes() {
+       // System.out.println(responseContainer.getItems().length);
+        Item item = responseContainer.getItems()[0];
+        assertEquals("Ks-_Mh1QhMc", item.getId());
+        assertEquals("youtube#video", item.getKind());
     }
-    */
+    @Test
+    public void assertSnippetAttributes() {
+        Item item = responseContainer.getItems()[0];
+        assertEquals("2018-02-03T05:07:54.000Z", item.getSnippet().getPublishedAt());
+        assertEquals("UCblfuW_4rakIf2h6aqANefA", item.getSnippet().getChannelId());
+        assertEquals("Surfing LIVE - Volcom Pipe Pro 2018 - Day 3", item.getSnippet().getTitle());
+        assertEquals("Watch Volcom Pipe Pro 2018 Day 3 LIVE from Oahu, Hawaii. Experience the world of Red Bull like you have never seen it before. With the...", item.getSnippet().getDescription());
+        assertEquals("Red Bull", item.getSnippet().getChannelTitle());
+        assertEquals("none", item.getSnippet().getLiveBroadcastContent());
+
+    }
 }

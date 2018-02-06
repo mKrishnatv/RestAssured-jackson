@@ -1,5 +1,6 @@
 package styles.tests;
 
+import entities.response.ResponseHelper;
 import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.Test;
@@ -28,9 +29,9 @@ public class Styles {
                 .param("part", "snippet,contentDetails,statistics")
                 .param("id","Ks-_Mh1QhMc")
                 .param("key", "AIzaSyD9FNFFLje1rFT4Yaq1JbP_6NxA84NzVB0").
-                when()
+        when()
                 .get("https://www.googleapis.com/youtube/v3/videos").
-                then()
+        then()
                 .body("pageInfo.totalResults", equalTo(1));
     }
 
@@ -41,10 +42,9 @@ public class Styles {
                         .param("part", "snippet,contentDetails,statistics")
                         .param("id","Ks-_Mh1QhMc")
                         .param("key", "AIzaSyD9FNFFLje1rFT4Yaq1JbP_6NxA84NzVB0").
-                        when()
+                when()
                         .get("https://www.googleapis.com/youtube/v3/videos").asString();
 
-        //System.out.println(responseString);
         int totalItems = from(responseString).get("pageInfo.totalResults");
 
         assertEquals(1, totalItems);
@@ -60,24 +60,17 @@ public class Styles {
                         .param("q", "surfing")
                         .param("type", "")
                         .param("key", "AIzaSyD9FNFFLje1rFT4Yaq1JbP_6NxA84NzVB0").
-                        when()
+                when()
                         .get("https://www.googleapis.com/youtube/v3/search").asString();
 
-        //System.out.println(responseString);
-        //System.out.println(responseString);
+        ResponseContainer responseContainer = (ResponseContainer) ResponseHelper.getResponseAsObject(responseString, ResponseContainer.class);
 
-        ResponseContainer responseContainer = (ResponseContainer) getResponseAsObject(responseString, ResponseContainer.class);
-
-       // ObjectMapper mapper = new ObjectMapper();
-       // ResponseContainer responseContainer = mapper.readValue(responseString, ResponseContainer.class);
+        // ObjectMapper mapper = new ObjectMapper();
+        // ResponseContainer responseContainer = mapper.readValue(responseString, ResponseContainer.class);
 
         assertEquals(2, responseContainer.getItems().length);
     }
 
-    public static Object getResponseAsObject(String responseString, Class responseClass) throws IOException {
-        ObjectMapper mapper = new ObjectMapper();
-        mapper.configure(DeserializationConfig.Feature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        return mapper.readValue(responseString, responseClass);
-    }
+
 
 }
