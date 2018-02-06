@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73881ed9-1de5-4b4f-a840-eb969e959056" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/entities/response/ResponseHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/entities/response/multiple/Item.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/entities/response/multiple/PageInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/entities/response/multiple/ResponseContainer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/contract/test/DataAttributesContractTests.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/contract/test/ItemAttributesContractTests.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/response/ResponseContainer.java" afterPath="$PROJECT_DIR$/src/main/java/entities/response/ResponseContainer.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/positive/tests/JacksonObjectMapperIllustrationTests.java" afterPath="$PROJECT_DIR$/src/test/java/positive/tests/JacksonObjectMapperIllustrationTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/positive/tests/JsonPathIllustrationTests.java" afterPath="$PROJECT_DIR$/src/test/java/positive/tests/JsonPathIllustrationTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/styles/tests/Styles.java" afterPath="$PROJECT_DIR$/src/test/java/styles/tests/Styles.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/response/ResponseContainer.class" afterPath="$PROJECT_DIR$/target/classes/entities/response/ResponseContainer.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/positive/tests/JacksonObjectMapperIllustrationTests.class" afterPath="$PROJECT_DIR$/target/test-classes/positive/tests/JacksonObjectMapperIllustrationTests.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/styles/tests/Styles.class" afterPath="$PROJECT_DIR$/target/test-classes/styles/tests/Styles.class" />
-    </list>
+    <list default="true" id="73881ed9-1de5-4b4f-a840-eb969e959056" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
