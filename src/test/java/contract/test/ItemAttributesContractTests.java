@@ -12,10 +12,14 @@ import static org.junit.Assert.assertNotNull;
 
 public class ItemAttributesContractTests {
 
-    static String responseString;
+    private String responseString;
+    private ObjectMapper mapper;
+    private ResponseContainer responseRootObject;
+    private Item item;
+
 
     @BeforeClass
-    public static void beforeClass() throws IOException {
+    public void beforeClass() throws IOException {
         responseString =
                 given()
                         .param("part", "snippet")
@@ -24,16 +28,15 @@ public class ItemAttributesContractTests {
                 .when()
                         .get("https://www.googleapis.com/youtube/v3/videos").asString();
         //System.out.println(responseString);
+        mapper = new ObjectMapper();
+        responseRootObject = mapper.readValue(responseString, ResponseContainer.class);
+
+        item = responseRootObject.getItems()[0];
     }
 
 
     @Test
     public void shouldHaveItemAttributes() throws IOException {
-
-        ObjectMapper mapper = new ObjectMapper();
-        ResponseContainer responseRootObject = mapper.readValue(responseString, ResponseContainer.class);
-
-        Item item = responseRootObject.getItems()[0];
 
         assertNotNull(item.getKind());
         assertNotNull(item.getEtag());
@@ -51,6 +54,31 @@ public class ItemAttributesContractTests {
         assertNotNull(item.getSnippet().getDefaultLanguage());
         assertNotNull(item.getSnippet().getDefaultAudioLanguage());
         assertNotNull(item.getSnippet().getLiveBroadcastContent());
+
+    }
+
+    @Test
+    public void shouldHaveThumbnailAttributes() throws IOException {
+
+        assertNotNull(item.getSnippet().getThumbnails().getDefault());
+        assertNotNull(item.getSnippet().getThumbnails().getHigh());
+        assertNotNull(item.getSnippet().getThumbnails().getMaxres());
+        assertNotNull(item.getSnippet().getThumbnails().getMedium());
+        assertNotNull(item.getSnippet().getThumbnails().getStandard());
+
+    }
+
+    @Test
+    public void shouldHaveTags() throws IOException {
+
+        assertNotNull(item.getSnippet().getTags());
+    }
+
+    @Test
+    public void shouldHaveLocalizedAttributes() throws IOException {
+
+        assertNotNull(item.getSnippet().getLocalized().getDescription());
+        assertNotNull(item.getSnippet().getLocalized().getTitle());
 
     }
 
