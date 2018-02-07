@@ -23,7 +23,7 @@ public class ItemAttributesContractTests {
                         .param("key", "AIzaSyD9FNFFLje1rFT4Yaq1JbP_6NxA84NzVB0")
                 .when()
                         .get("https://www.googleapis.com/youtube/v3/videos").asString();
-        System.out.println(responseString);
+        //System.out.println(responseString);
     }
 
 
@@ -53,4 +53,5 @@ public class ItemAttributesContractTests {
         assertNotNull(item.getSnippet().getLiveBroadcastContent());
 
     }
+
 }
