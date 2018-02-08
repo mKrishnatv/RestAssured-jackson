@@ -1,12 +1,9 @@
 package styles.tests;
 
 import entities.response.ResponseHelper;
-import org.codehaus.jackson.map.DeserializationConfig;
-import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.Test;
 import java.io.IOException;
 import entities.response.ResponseContainer;
-
 import static com.jayway.restassured.RestAssured.get;
 import static com.jayway.restassured.RestAssured.given;
 import static com.jayway.restassured.path.json.JsonPath.from;
@@ -65,12 +62,7 @@ public class Styles {
 
         ResponseContainer responseContainer = (ResponseContainer) ResponseHelper.getResponseAsObject(responseString, ResponseContainer.class);
 
-        // ObjectMapper mapper = new ObjectMapper();
-        // ResponseContainer responseContainer = mapper.readValue(responseString, ResponseContainer.class);
-
         assertEquals(2, responseContainer.getItems().length);
     }
-
-
 
 }

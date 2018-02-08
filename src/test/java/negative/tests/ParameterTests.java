@@ -3,11 +3,8 @@ package negative.tests;
 import entities.response.ResponseContainer;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.Test;
-
 import java.io.IOException;
-
 import static com.jayway.restassured.RestAssured.given;
-import static junit.framework.Assert.assertNull;
 import static junit.framework.Assert.assertEquals;
 import static org.hamcrest.Matchers.equalTo;
 
@@ -26,7 +23,6 @@ public class ParameterTests {
 
         ObjectMapper mapper = new ObjectMapper();
         ResponseContainer responseContainer = mapper.readValue(responseString, ResponseContainer.class);
-        //assertNull(responseContainer.getItems());
         assertEquals(0, responseContainer.getPageInfo().getTotalResults());
     }
 
@@ -39,10 +35,9 @@ public class ParameterTests {
                 .param("q", "")
                 .param("type", "video")
                 .param("key","AIzaSyD9FNFFLje1rFT4Yaq1JbP_6NxA84NzVB0").
-
-                when()
+        when()
                 .get("https://www.googleapis.com/youtube/v3/search").
-                then()
+        then()
                 .assertThat().body("error.code", equalTo(400)).and()
                 .assertThat().body("error.message", equalTo("Invalid location."));
     }

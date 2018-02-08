@@ -1,25 +1,24 @@
 package contract.test;
+
 import entities.response.multiple.Item;
 import entities.response.multiple.ResponseContainer;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
 import java.io.IOException;
-
 import static com.jayway.restassured.RestAssured.given;
 import static org.junit.Assert.assertNotNull;
 
 public class ItemAttributesContractTests {
 
-    private String responseString;
-    private ObjectMapper mapper;
-    private ResponseContainer responseRootObject;
-    private Item item;
+    private static String responseString;
+    private static ObjectMapper mapper;
+    private static ResponseContainer responseRootObject;
+    private static Item item;
 
 
     @BeforeClass
-    public void beforeClass() throws IOException {
+    public static void beforeClass() throws IOException {
         responseString =
                 given()
                         .param("part", "snippet")
@@ -27,7 +26,6 @@ public class ItemAttributesContractTests {
                         .param("key", "AIzaSyD9FNFFLje1rFT4Yaq1JbP_6NxA84NzVB0")
                 .when()
                         .get("https://www.googleapis.com/youtube/v3/videos").asString();
-        //System.out.println(responseString);
         mapper = new ObjectMapper();
         responseRootObject = mapper.readValue(responseString, ResponseContainer.class);
 

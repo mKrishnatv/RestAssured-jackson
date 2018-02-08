@@ -1,8 +1,6 @@
 package boundary.tests;
 
-import com.jayway.restassured.path.json.JsonPath;
 import entities.response.ResponseHelper;
-import entities.response.multiple.Item;
 import entities.response.multiple.ResponseContainer;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.Test;
@@ -11,7 +9,6 @@ import java.io.IOException;
 
 import static com.jayway.restassured.RestAssured.given;
 import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertNull;
 import static org.hamcrest.Matchers.equalTo;
 
 public class ParameterBoundaryTests {
